@@ -7,71 +7,49 @@ categories: [Fundamentals]
 comments: true
 ---
 
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
+Markdown is very easy to learn and write. It is broadly used in websites, notes, documents, etc. 
 
-**Here is some bold text**
+In this tutorial, we will go through some basic syntax of markdown to help you get started.
 
-## Here is a secondary heading
+I strongly encourage you to take this [interactive tutorial](https://www.markdowntutorial.com/) from Markdown Tutorial. 
 
-Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
-
-How about a yummy crepe?
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
-
-It can also be centered!
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .mx-auto.d-block :}
-
-Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
+## Styling Text
+``` markdown
+Surround text with 
+_one_ * or _ to make it *italic*
+__two__ * or _ to make it **bold**
+___three___ * or _ to make it ***italic and bold***, or you can __*mix*__ and **_match_** it
+~~two~~ ~ to ~~strikethrough~~ it
 ```
+Surround text with  
+_one_ * or _ to make it *italic*  
+__two__ * or _ to make it **bold**  
+___three___ * or _ to make it ***italic and bold***, or you can __*mix*__ and **_match_** it  
+~~two~~ ~ to ~~strikethrough~~ it  
 
-And here is the same code yet again but with line numbers:
+```
+To make a horizontal line / section, use 3 - or * or _
+I usually use 
+---
+to make a horizontal line
+```
+I usually use
 
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
+---
+to make a horizontal line
 
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
+## Headings
+```
+# Heading is very easy
+## Just add # in front of the text
+### There are 6 levels of headings in total
+#### The more # 
+##### The smaller the heading
+###### You got it!
+```
+# Heading is very easy
+## Just add # in front of the text
+### There are 6 levels of headings in total
+#### The more \# you add 
+##### The smaller the heading
+###### Heading 6 is so small...
