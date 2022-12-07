@@ -2,8 +2,8 @@
 layout: post
 title: Basic Markdown 
 subtitle: 
-tags: [test]
-categories: [Baic-Tutorial]
+tags: [md]
+categories: [Fundamentals]
 comments: true
 ---
 
