@@ -30,12 +30,12 @@ ___three___ * or _ to make it ***italic and bold***, or you can __*mix*__ and **
 ```
 To make a horizontal line / section, use 3 - or * or _
 I usually use 
+<!-- This is comment which won't show up -->
 ---
 to make a horizontal line
 ```
 I usually use  
-[comment]: <> (This is a comment, it will not be included)
-%% this is a comment %% 
+<!-- This is comment which won't show up -->
 ---
 to make a horizontal line
 
