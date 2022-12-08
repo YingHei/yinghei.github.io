@@ -30,7 +30,7 @@ ___three___ * or _ to make it ***italic and bold***, or you can __*mix*__ and **
 
 ---
 ## Headings
-  
+<!-- comment -->
 # Heading is very easy
 ## Just add # in front of the text
 ### There are 6 levels of headings in total
@@ -47,7 +47,7 @@ ___three___ * or _ to make it ***italic and bold***, or you can __*mix*__ and **
 ###### Heading 6 is so small...
 ```
 
-  
+<!-- comment -->
 ## Paragraphs
 It's also a good practice to keep articles clean and easy to read. We can do this by separating lines and adding sections.
 
@@ -150,8 +150,9 @@ Remember reference links? You can also do it with images!
 
 ```
 
-  
-## Check box
+
+
+## Checkbox
 ```
 - [x] this is a complete item 
 - [ ] this is an incomplete item
