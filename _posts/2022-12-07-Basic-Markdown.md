@@ -76,3 +76,28 @@ All [links][link-of-link] in this paragraph are linked to the same link!
 
 [link-of-link]: https://dictionary.cambridge.org/dictionary/english/link
 
+## Lists
+
+```
+1. This is an ordered list
+2. just type the number with a dot and a space
+3. then it turns into a ordered list
+
+* This is an unordered list
+- type * or - followed by a space
+* then it turns into a unordered list
+```
+
+1. This is an ordered list
+2. just type the number with a dot and a space
+3. then it turns into a ordered list
+
+* This is an unordered list
+- type * or - followed by a space
+* then it turns into a unordered list
+
+## Check box
+- [x] this is a complete item 
+- [-] this is also a complete item (works with every character) 
+- [?] this is also a complete item
+- [ ] this is an incomplete item
