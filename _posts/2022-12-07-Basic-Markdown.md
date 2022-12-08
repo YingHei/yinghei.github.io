@@ -33,8 +33,9 @@ I usually use
 ---
 to make a horizontal line
 ```
-I usually use
-
+I usually use  
+[comment]: <> (This is a comment, it will not be included)
+%% this is a comment %% 
 ---
 to make a horizontal line
 
