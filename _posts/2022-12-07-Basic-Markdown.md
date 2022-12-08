@@ -72,7 +72,7 @@ I usually use
 to make a horizontal line
 ```
 
-  
+<!-- comment -->
 ## Links
 The syntax for links are: `[text](link)`  
 Surround text with [ ] to make it a link. Surround link with ( ).  
@@ -95,7 +95,8 @@ All [links][link-of-link] in this paragraph are linked to the same link!
 [link-of-link]: https://dictionary.cambridge.org/dictionary/english/link
 ```
 
-  
+
+
 ## Image
 Embed image is similar to links.  
 Add a ! before [some text (optional)](link to image).
@@ -151,14 +152,15 @@ Remember reference links? You can also do it with images!
 ```
 
 
-
+  
 ## Checkbox
 ```
 - [x] this is a complete item 
 - [ ] this is an incomplete item
 ```
 
-  
+
+<!-- comment -->
 ## Tables
 
 | Number | Next number | Previous number |
