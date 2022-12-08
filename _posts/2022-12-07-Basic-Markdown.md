@@ -46,9 +46,20 @@ ___three___ * or _ to make it ***italic and bold***, or you can __*mix*__ and **
 ##### The smaller the heading
 ###### Heading 6 is so small...
 ```
+
   
-## Horizontal line
-To make a horizontal line / section, use 3 - or * or _  
+## Paragraphs
+It's also a good practice to keep articles clean and easy to read. We can do this by separating lines and adding sections.
+
+To separating lines,  
+we can add two spaces after each line.  
+This is called a soft break.
+
+You can also insert a hard break,
+
+you can also adding empty line between.
+
+To add a section (or horizontal line), use 3 - or * or _  
 I usually use 
 
 ---
@@ -60,6 +71,7 @@ I usually use
 ---
 to make a horizontal line
 ```
+
   
 ## Links
 The syntax for links are: `[text](link)`  
@@ -83,6 +95,7 @@ All [links][link-of-link] in this paragraph are linked to the same link!
 [link-of-link]: https://dictionary.cambridge.org/dictionary/english/link
 ```
 
+  
 ## Image
 Embed image is similar to links.  
 Add a ! before [some text (optional)](link to image).
@@ -96,8 +109,7 @@ It can also be centered using css!
 ![Octocat](https://yinghei.github.io/assets/img/avatar-icon.png){: .mx-auto.d-block :}
   
 Remember reference links? You can also do it with images!
-
----
+  
 ## Lists
 1. This is an ordered list
 2. just type the number with a dot and a space
@@ -112,9 +124,10 @@ Remember reference links? You can also do it with images!
 2. back to main level
 	- nested item can change type 
 
-- list also can have more than 1 line
-  2nd line need to be indented  
-  it can contain _italic_ and other markdown elements
+- list can also contain italic and other markdown elements such as
+	- [links](https://www.google.com/)
+	- [images](https://yinghei.github.io/assets/img/avatar-icon.png)
+	- `code snippets`
 
 ```
 1. This is an ordered list
@@ -130,17 +143,21 @@ Remember reference links? You can also do it with images!
 2. back to main level
 	- nested item can change type 
 
-- list also can have more than 1 line
-	2nd line need to be indented
+- list can also contain italic and other markdown elements such as
+	- [links](https://www.google.com/)
+	- [images](https://yinghei.github.io/assets/img/avatar-icon.png)
+	- `code snippets`
+
 ```
 
+  
 ## Check box
 ```
 - [x] this is a complete item 
 - [ ] this is an incomplete item
 ```
 
----
+  
 ## Tables
 
 | Number | Next number | Previous number |
@@ -157,7 +174,7 @@ Remember reference links? You can also do it with images!
 | Seven | Eight | Six |
 | Two | Three | One |
 
----
+  
 ## Code
 
 There are quite a number of code chunks in this article.
@@ -205,7 +222,6 @@ Blockquotes are block that stands out from others.
 
 Block quotes can contain other elements, such as styling, links, or images.
 
----
 ## Comment
 When you want to jot notes for yourself, and don't want to let others see it, you can use comment.  
 Comments are useful when you need to recall your logic / codes after a period of time.
@@ -213,4 +229,3 @@ Comments are useful when you need to recall your logic / codes after a period of
 <!-- This is comment which won't show up --> You can't see the comment.
 ```
 <!-- This is comment which won't show up --> You can't see the comment.
-
