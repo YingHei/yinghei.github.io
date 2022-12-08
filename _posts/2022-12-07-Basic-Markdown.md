@@ -125,10 +125,12 @@ Remember reference links? You can also do it with images!
 2. back to main level
 	- nested item can change type 
 
-- list can also contain italic and other markdown elements such as
+- list can also contain italic and other markdown elements  
+such as
 	- [links](https://www.google.com/)
 	- [images](https://yinghei.github.io/assets/img/avatar-icon.png)
 	- `code snippets`
+
 
 ```
 1. This is an ordered list
